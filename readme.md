@@ -24,7 +24,7 @@
 
 ## Work
 
-Working [@3scale](www.3scale.net)
+Working [@3scale](http://www.3scale.net)
 
 ## Hobbies
 
@@ -67,7 +67,7 @@ Please, send any feedback as an issue, or via mail.
 
 # SEE ALSO
 
-- http://puntoblogstpot.blogspot.com
+- http://puntoblogspot.blogspot.com
 - http://github.com/kidd
 
 # AUTHORs
