@@ -10,7 +10,8 @@
 # SYNOPSIS
 
 	Average Blond guy, with some Lua and Ruby programming
-    skills. Quite talkative, and generally good mood.
+    skills. Emacs devote, and programming languages nerd. Loves Lisp
+    and Smalltalk. Quite talkative, and generally good mood.
 
 # DESCRIPTION
 
@@ -22,15 +23,18 @@
 # FUNCTIONS
 
 ## Work
-	Working @ 3scale
+
+Working [@3scale](www.3scale.net)
 
 ## Hobbies
 
 - Bass playing
 - Skating
+- Programming languages
 - Party hard
 
 # EXPORTS
+
 	Bass playing, skating, good conversations.
 
 # SCREENSHOTS
