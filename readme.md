@@ -72,14 +72,42 @@ Please, send any feedback as an issue, or via mail.
 
 # Changelog
 
-| Date         | What         |
-|--------------+--------------|
-| *2001-XX-XX* | Start Uni    |
-| *1983-04-12* | First Commit |
-
-
-
 ```ChangeLog
+2013-XX-XX
+  * Attending European Lisp Conference. Madrid
+  * Attending Lua Workshop. Toulouse
+
+2012-XX-XX
+  * Lua programming at 3scale.
+
+2011-XX-XX
+  * 2011-07-XX Join 3scale. Ruby development.
+  * Attending European Smalltalk User Group Conference. Edinburgh
+
+2010-XX-XX
+  * Attending European Smalltalk User Group Conference. Barcelona
+  * Presented my bachelor's degree final work: "Applying Evolutionary
+    Algorithms to drug discovery". Graded A (MH).
+  * 2010-12-X Joined Gnuine. Rails. First contact with web development.
+
+2009-XX-XX
+  * Joining Smalltalk.cat.
+  * Attending Perl YAPC::EU 2009 Conference.
+
+2008-XX-XX
+  * Back to Barcelona. Working at Intelligent Pharma. Developing
+    Artificial intelligence (Machine learning and Genetic algorithms)
+    applications for drug discovery.  Developing in Perl.
+  * Joining Barcelona Perl Mongers
+  * Joined Github (as a user :D) (Sep 21, 2008)
+
+2007-XX-XX
+  * Moved from Barcelona to Tenerife
+
+2003-XX-XX
+  * Workingat AMES S.L.
+    - Programming in Dataflex, Perl, and CrystalReports
+
 2001-XX-XX
   * Uni
 
