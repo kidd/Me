@@ -76,19 +76,27 @@ Please, send any feedback as an issue, or via mail.
 2013-XX-XX
   * Attending European Lisp Conference. Madrid
   * Attending Lua Workshop. Toulouse
+  * Even a bit more addicted to emacs (and yeah,... lisps)
 
 2012-XX-XX
   * Lua programming at 3scale.
+  * More addicted to emacs (and lisp)
 
 2011-XX-XX
-  * 2011-07-XX Join 3scale. Ruby development.
+  * 2011-07-XX Join 3scale.
+    - Ruby development.
+    - Payment Gateways.
+    - Redis
+
   * Attending European Smalltalk User Group Conference. Edinburgh
+  * Became Emacs Addict (and lisp)
 
 2010-XX-XX
+  * 2010-12-X Joined Gnuine. Rails. First contact with web development.
   * Attending European Smalltalk User Group Conference. Barcelona
   * Presented my bachelor's degree final work: "Applying Evolutionary
     Algorithms to drug discovery". Graded A (MH).
-  * 2010-12-X Joined Gnuine. Rails. First contact with web development.
+  * Stated using emacs
 
 2009-XX-XX
   * Joining Smalltalk.cat.
@@ -107,6 +115,7 @@ Please, send any feedback as an issue, or via mail.
 2003-XX-XX
   * Workingat AMES S.L.
     - Programming in Dataflex, Perl, and CrystalReports
+  * Became Vim addict
 
 2001-XX-XX
   * Uni
