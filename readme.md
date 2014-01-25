@@ -70,6 +70,16 @@ Please, send any feedback as an issue, or via mail.
 - http://puntoblogspot.blogspot.com
 - http://github.com/kidd
 
+# Changelog
+
+```ChangeLog
+2001-XX-XX
+  * Uni
+
+1983-04-12
+  * First commit
+```
+
 # AUTHORs
 	Josep Grau
 	Teresa Cuscó
