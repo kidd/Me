@@ -35,7 +35,8 @@ Working [@3scale](http://www.3scale.net)
 
 # EXPORTS
 
-	Bass playing, skating, good conversations.
+    Bass playing, skating, good conversations in English, Catalan or
+    Spanish.
 
 # SCREENSHOTS
 
