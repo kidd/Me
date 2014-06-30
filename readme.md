@@ -4,7 +4,7 @@
 
 # VERSION
 
-	30.0
+	31.0
 	(first version appeared in 1983)
 
 # SYNOPSIS
