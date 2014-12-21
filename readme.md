@@ -75,6 +75,17 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+
+2014-XX-XX
+  * Release of Apitools (Lua+Nginx+redis+RoR+Docker+whatnot)
+  (http://www.apitools.com)
+  * Give a talk in ApiDays Barcelona about Reverse Engineering APIs
+    with Apitools.
+  * Back to RoR application as Team Lead, and focused on backend.
+  * Attending Polyconf.
+  * Dabbling with clojure a bit more seriously and trying to wrap my
+    head around Haskell and Factor.
+
 2013-XX-XX
   * Running Lua embedded in Redis and Nginx. Highly concurrent apps.
   * Attending European Lisp Conference. Madrid
