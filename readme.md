@@ -41,6 +41,7 @@ Working [@3scale](http://www.3scale.net)
 # SCREENSHOTS
 
 ![image](misc/sonar_music_hack_ray.jpg)
+![image](misc/rai-michal-apidaysbcn.jpg)
 
 # SCREENCASTS
 
