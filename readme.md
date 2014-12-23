@@ -69,6 +69,7 @@ Please, send any feedback as an issue, or via mail.
 
 # SEE ALSO
 
+- [More formal CV](cv/other_cv.pdf)
 - http://puntoblogspot.blogspot.com
 - http://github.com/kidd
 
