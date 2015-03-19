@@ -77,6 +77,9 @@ Please, send any feedback as an issue, or via mail.
 
 ```ChangeLog
 
+2015-02-XX
+  * remounted $HOME from /dev/sdBARCELONA to /dev/sdTENERIFE
+
 2014-XX-XX
   * Release of Apitools (Lua+Nginx+redis+RoR+Docker+whatnot)
   (http://www.apitools.com)
