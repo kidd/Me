@@ -59,9 +59,14 @@ Working [@3scale](http://www.3scale.net)
 # PITFALLS
 	Might not work correctly when not enough sleep or some dependency is missing
 
-# BUGS AND LIMITATIONS
+# KNOWN BUGS AND LIMITATIONS
 
-- Can't do frontend
+- Can't divide by 0.
+- Infinite loop has been detected opening /r/programming, closing
+the tab and opening it again instantly. A workaround for this is
+`echo '127.0.0.1 reddit.com' >>/etc/hosts`
+
+
 
 # FEEDBACK
 
