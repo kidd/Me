@@ -1,6 +1,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 
 \name{Raimon Grau} % Your name
 \address{ raimonster@gmail.com \\ http://puntoblogspot.blogspot.com \\ https://github.com/kidd/Me }
@@ -18,13 +19,13 @@
 
 {\bf Facultat Informatica de Barcelona (UPC), Barcelona} \hfill {\em January 2010} \\
 B.S. in Computer Science \\
-Final thesis on Evolutionary algorithms graded with Honours (just the thesis) \smallskip \\
+Final thesis on Evolutionary Algorithms graded with Honours. \smallskip \\
 \end{rSection}
 
 \begin{rSection}{Languages}
 Spanish - native\\
 Catalan - native\\
-English - high\\
+English - high ('writen' and spoken (yes, it's a joke))\\
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -33,14 +34,15 @@ English - high\\
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{3scale, Inc - http://www.3scale.net/}{July 2011 - Present}{Web Developer, Backend Developer, Team Lead}{Barcelona, Spain}
-\item Working on a Ruby on Rails application to manage API authentication and rate limitings.
+\item Maintaining and developing a Ruby on Rails application to manage
+  API authentication and rate limitings. Team lead since 2014.
 \item Develop a code generator to create Nginx Lua configurations from
   rules introduced by the users. Also run nginx on cloud to host these
-  configurations. Developed with Ruby, Lua, Nginx and Redis.
+  configurations. Developed in Ruby, Lua, Nginx and Redis.
 \item Work in an Nginx+Lua solution to cache calls to external apis to
   reduce the outbound traffic and be able to not get hit by rate
-  limits (500rps). Highly concurrent calls and heavy redis usage. Lua, Nginx
-  and Redis.
+  limits (500rps). Highly concurrent calls and heavy redis usage. Lua,
+  Nginx and Redis.
 \item Work in apitools.com (http://www.apitools.com) project from the
   beginning until current state. Nginx platform + docker to allow
   users to proxy all the outbound traffic through apitools and monitor
@@ -80,15 +82,28 @@ English - high\\
 
 \begin{rSection}{Skills}
 
-\item Computer Languages: Ruby, Perl, Lua, Lisp, Assembly, C (basic). I'm a programming language fanatic so I've dabbled with lots of others  (either at university or for fun): Python, Prolog, C++, Java, Scheme, Clojure, Smalltalk, CL,Dylan, Io, Factor, Forth, Shen, Erlang, Elixir, Haskell, Oz, and written some very basic lisp interpreters (see github).
+\item Computer Languages: Ruby, Perl, Lua, Lisp, Assembly, C (basic),
+  Clojure, Smalltalk.  I'm a programming language fanatic so I've
+  dabbled with lots of others (either at university or for fun):
+  Python, Prolog, C++, Java, Scheme, CL,Dylan, Io, Factor, Forth,
+  Shen, Erlang, Elixir, Haskell, Oz, and written some very basic lisp
+  interpreters (see github).
 
-\item Protocols \& APIs: HTTP, JSON, REST Databases \& MySQL, Redis,
-  MongoDB. I tried lots of others from Tarantool to influxdb or
-  mnesia. No real world experience with.those though.
+\item Protocols \& APIs: Working experience with HTTP, JSON, XML,
+  REST, MySQL, Redis, MongoDB. Some experience with lots of others:
+  Postgresql, Tarantool, influxdb, mnesia, Gemstone/S, DataFlex.  No
+  real world experience with those though.
 \item Tools: Zsh, screen, Vim (heavy user for 5 years, written some
-  plugins), Emacs (heavy user for 4 years, written some plugins and
-  have code in the main project), git. Basic docker knowledge.
-\item Good comunication skills.
+  plugins), Emacs (heavy user for 5 years, written some plugins and
+  contributed code to  emacs itself), git, docker.
+
+\item Passionate learner, and willing to transmit enthusiasm for
+  learning technologies and balance them with the current stable
+  stack. I'm quite cautious on ``The next big thing'' hypes (there is
+  no silver bullet), and like to usually keep things very simple
+  (\url{http://suckless.org}). I believe simplicity and uniformity
+  sometimes wins 'the perfect tool for the job' x Number-of-jobs.
+\item Good comunication skills and enthusiast both teacher \& learner.
 \item I used to reverse engineer software (1997-2000). Most of it is
   outdated now, but my approach to problem solving stayed.
 
@@ -98,6 +113,7 @@ English - high\\
 
   I love to attend conferences (preferably not very crouded/mainstream ones).
 
+\item Euroclojure 2015. (Barcelona, Spain)
 \item Polyconf 2014. (Postdam, Poland)
 \item ApiDays Barcelona 2014. As a Speaker
 \item ApiStrat EUrope 2014. As staff. (Amsterdam)
@@ -111,27 +127,43 @@ English - high\\
 
 \begin{rSection}{Pet Projects and Free Software}
 
-  I'm a convinced user and supporter of Free software, and I have
-  several projects opensourced in github (http://www.github.com/kidd),
-  and I've contributed also in several others. Also I've been
-  involved in several open source communities. Some examples:
+  I'm a convinced advocate of Free software, and I have several
+  projects opensourced in github (http://www.github.com/kidd), and
+  I've contributed to several others. Also I've been involved in
+  several open source communities. For example:
 
 \item Barcelona Perl Mongers
-\item Vimperator ( http://vimperator-labs.googlecode.com/hg/vimperator/AUTHORS )
+\item Vimperator
 \item Emacs
 \item Vectorlinux. I developed a few apps to help packaging apps for
   vectorlinux and maintaining the repos. Also a migration tool for old
   versions in Perl
-\item GNU Guix. Packaged a few packages.
-
+\item GNU Guix.
+\item More in github\ldots
 \end{rSection}
 
 \begin{rSection}{Personal}
 
-\item I love music (from rock and jazz to funk and psy \ldots),
-\item I like reading (obiously, my favourite books are SICP and GEB)
+\item I love music (from rock and jazz to funk and psy \ldots).
+\item I like reading (``obviously'', my favourite technical books are
+  those that are known by their initials:
+  \begin{enumerate}
+  \item \href{https://mitpress.mit.edu/sicp/}{SICP}
+  \item \href{https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach}{GEB},
+  \item \href{http://norvig.com/paip.html}{PAIP}
+  \item \href{http://hop.perl.plover.com/}{HOP} .
+  \item Currently reading
+    \href{https://www.info.ucl.ac.be/~pvr/book.html}{CTM}, which seems
+    to be a good candidate to enter the list).
+  \end{enumerate}
 \item I used to play Guitar and bass guitar.
+\item I also love good conversations over beers about programming
+  languages.
 
+\item I blog in \url{http://puntoblogspot.blogspot.com}.
+\item I like wordplays.
+\item I currently live in \href{https://www.google.es/maps/place/Tenerife/@28.2925426,-17.0803948,9z/data=!3m1!4b1!4m2!3m1!1s0xc4029effe8682ed:0xb01a4bf1c84baf3c}{Tenerife}.
+\item My Cv is on \href{https://github.com/kidd/Me}{Github}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
