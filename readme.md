@@ -76,6 +76,7 @@ Please, send any feedback as an issue, or via mail.
 - [More formal CV](https://github.com/kidd/Me/raw/master/cv/raimon_grau_cv.pdf)
 - http://puntoblogspot.blogspot.com
 - http://github.com/kidd
+- This project is heavily inspired by https://github.com/the-universe/Homo-Sapiens
 
 # Changelog
 
@@ -83,9 +84,9 @@ Please, send any feedback as an issue, or via mail.
 
 2016-06-XX
   * Started project in Common Lisp.
-  * $HOME is /dev/sdMARBELLA 
+  * $HOME is /dev/sdMARBELLA
   * $PATH='$TENERIFE:$HOME:$PATH'
-  * Removed cigarettes dependency. 
+  * Removed cigarettes dependency.
 
 2015-02-XX
   * remounted $HOME from /dev/sdBARCELONA to /dev/sdTENERIFE
