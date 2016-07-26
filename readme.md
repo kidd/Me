@@ -24,7 +24,7 @@
 
 ## Work
 
-Working [@3scale](http://www.3scale.net)
+Working [@ravenpack](http://www.ravenpack.com)
 
 ## Hobbies
 
@@ -54,7 +54,6 @@ Working [@3scale](http://www.3scale.net)
 # DEPENDENCIES
 
 - Coffee 1.0
-- Cigarettes 2.0.14
 
 # PITFALLS
 	Might not work correctly when not enough sleep or some dependency is missing
@@ -81,6 +80,12 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+
+2016-06-XX
+  * Started project in Common Lisp.
+  * $HOME is /dev/sdMARBELLA 
+  * $PATH='$TENERIFE:$HOME:$PATH'
+  * Removed cigarettes dependency. 
 
 2015-02-XX
   * remounted $HOME from /dev/sdBARCELONA to /dev/sdTENERIFE
