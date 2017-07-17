@@ -9,7 +9,7 @@
 
 # SYNOPSIS
 
-	Average Blond guy, with some Lua and Ruby programming
+	Average Blond guy, with some Perl, Lua, Ruby and Lisp programming
     skills. Emacs devote, and programming languages nerd. Loves Lisp
     and Smalltalk. Quite talkative, and generally good mood.
 
@@ -18,7 +18,7 @@
 - mail: raimonster@gmail.com
 - phone: mmmm...not here
 - skype: raimon.gra1
-- location: Bcn
+- location: Bcn/Malaga/Tenerife
 
 # FUNCTIONS
 
@@ -31,7 +31,6 @@ Working [@ravenpack](http://www.ravenpack.com)
 - Bass playing
 - Skating
 - Programming languages
-- Party hard
 
 # EXPORTS
 
@@ -49,7 +48,8 @@ Working [@ravenpack](http://www.ravenpack.com)
 - http://www.youtube.com/user/giftedband?feature=watch
 
 ## Others
-- http://vimeo.com/user3097987
+- http://vimeo.com/user3097987 : Genetic Algorithms applied to drug
+  discovery (Catalan)
 
 # DEPENDENCIES
 
