@@ -4,7 +4,7 @@
 
 # VERSION
 
-	32.0
+	34.0
 	(first version appeared in 1983)
 
 # SYNOPSIS
@@ -82,8 +82,11 @@ Please, send any feedback as an issue, or via mail.
 
 ```ChangeLog
 
+2016-06-11
+  * $HOME is /dev/sdCoin
+
 2016-06-XX
-  * Started project in Common Lisp.
+  * Full time job working in Common Lisp.
   * $HOME is /dev/sdMARBELLA
   * $PATH='$TENERIFE:$HOME:$PATH'
   * Removed cigarettes dependency.
