@@ -13,6 +13,9 @@
     skills. Emacs devote, and programming languages nerd. Loves Lisp
     and Smalltalk. Quite talkative, and generally good mood.
 
+- Maybe you're looking for the
+  [more formal CV](https://github.com/kidd/Me/raw/master/cv/raimon_grau_cv.pdf)
+
 # DESCRIPTION
 
 - mail: raimonster@gmail.com
