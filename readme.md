@@ -21,6 +21,7 @@
 - mail: raimonster@gmail.com
 - phone: mmmm...not here
 - skype: raimon.gra1
+- LinkedIn: https://www.linkedin.com/in/raimon-grau-837ba91a/
 - location: Bcn/Malaga/Tenerife
 
 # FUNCTIONS
@@ -79,7 +80,7 @@ Please, send any feedback as an issue, or via mail.
 - [More formal CV](https://github.com/kidd/Me/raw/master/cv/raimon_grau_cv.pdf)
 - http://puntoblogspot.blogspot.com
 - http://github.com/kidd
-- This project is heavily inspired by https://github.com/the-universe/Homo-Sapiens
+- https://github.com/the-universe/Homo-Sapiens
 
 # Changelog
 
