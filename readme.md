@@ -85,12 +85,25 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+2017-08-XX
+  * (excl:exit)
+  * $HOME=/mnt/tenerife
+  * $PATH=/mnt/tenerife:/mnt/barcelona
+
+2016-07-01...2017-07-XX
+  * Setup CI and some test coverage to a Lisp codebase.
+  * Created a streaming json api with advanced filtering using CL and
+    nginx (nchan).
+  * 'Inherited' a 8k line Lisp app. Tuned it into a faster 5k line
+    Lisp app without behaviour changes.
 
 2016-06-11
   * $HOME is /dev/sdCoin
 
 2016-06-XX
-  * Full time job working in Common Lisp.
+  * Full time job working in Common Lisp (and python). Expanded love
+    for Common Lisp, it's live environment, and the quality of the
+    language.
   * $HOME is /dev/sdMARBELLA
   * $PATH='$TENERIFE:$HOME:$PATH'
   * Removed cigarettes dependency.
