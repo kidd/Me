@@ -28,7 +28,7 @@
 
 ## Work
 
-Working [@ravenpack](http://www.ravenpack.com)
+NIL
 
 ## Hobbies
 
