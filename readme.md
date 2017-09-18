@@ -28,7 +28,7 @@
 
 ## Work
 
-NIL
+NIL. Looking for remote job. Also available for contracting.
 
 ## Hobbies
 
@@ -81,6 +81,7 @@ Please, send any feedback as an issue, or via mail.
 - http://puntoblogspot.blogspot.com
 - http://github.com/kidd
 - https://github.com/the-universe/Homo-Sapiens
+- http://bitbucket.com/rgrau
 
 # Changelog
 
