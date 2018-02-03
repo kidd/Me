@@ -21,6 +21,7 @@
 - mail: raimonster@gmail.com
 - phone: mmmm...not here
 - skype: raimon.gra1
+- irc: #raimonster@freenode , leave your message and stay around.
 - LinkedIn: https://www.linkedin.com/in/raimon-grau-837ba91a/
 - location: Bcn/Malaga/Tenerife
 
@@ -28,7 +29,7 @@
 
 ## Work
 
-NIL. Looking for remote job. Also available for contracting.
+APIly working @ Kong.
 
 ## Hobbies
 
