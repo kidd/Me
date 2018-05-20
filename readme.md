@@ -46,6 +46,7 @@ APIly working @ Kong.
 
 ![image](misc/sonar_music_hack_ray.jpg)
 ![image](misc/rai-michal-apidaysbcn.jpg)
+![image](misc/sf-kong-02-022018)
 
 # SCREENCASTS
 
