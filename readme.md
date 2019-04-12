@@ -4,7 +4,7 @@
 
 # VERSION
 
-	35.0
+	36.0
 	(first version appeared in 1983)
 
 # SYNOPSIS
@@ -88,6 +88,14 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+2019-04-12
+  * Release of version 36.
+  * Emacs 26.2 is released with my first changes inside it.
+
+2018-02-XX
+  * Not idle anymore
+  * Started working at Kong
+
 2017-08-XX
   * (excl:exit)
   * $HOME=/mnt/tenerife
