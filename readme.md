@@ -23,7 +23,7 @@
 - skype: raimon.gra1
 - irc: #raimonster@freenode , leave your message and stay around.
 - LinkedIn: https://www.linkedin.com/in/raimon-grau-837ba91a/
-- location: Bcn/Malaga/Tenerife
+- Location: Tenerife 90%. Barcelona 5%. SF 5%
 
 # FUNCTIONS
 
@@ -33,13 +33,12 @@ APIly working @ Kong.
 
 ## Hobbies
 
-- Bass playing
-- Skating
 - Programming languages
+- Skating
 
 # EXPORTS
 
-    Bass playing, skating, good conversations in English, Catalan or
+    Skating, good conversations in English, Catalan or
     Spanish.
 
 # SCREENSHOTS
