@@ -4,7 +4,7 @@
 
 # VERSION
 
-	36.0
+	37.0
 	(first version appeared in 1983)
 
 # SYNOPSIS
@@ -87,6 +87,14 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+2020-04-12
+  * Release of version 36.
+  * Remounted /mnt/tenerife onto /dev/sdTenerife1 (moved places)
+  * self.itchy_feet++
+
+2020-03-XX:
+  * cd $HOME; echo 'STAY THE FUCK HOME'; sleep $((60*60*24*30))
+
 2019-04-12
   * Release of version 36.
   * Emacs 26.2 is released with my first changes inside it.
