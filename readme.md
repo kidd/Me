@@ -88,7 +88,7 @@ Please, send any feedback as an issue, or via mail.
 
 ```ChangeLog
 2020-04-12
-  * Release of version 36.
+  * Release of version 37.
   * Remounted /mnt/tenerife onto /dev/sdTenerife1 (moved places)
   * self.itchy_feet++
 
