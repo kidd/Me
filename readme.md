@@ -72,6 +72,13 @@ the tab and opening it again instantly. A workaround for this is
 
 
 
+# DEBUGGING
+
+You can check log examples and extract behavior patterns from:
+
+- https://news.ycombinator.com/user?id=rgrau
+- https://www.reddit.com/user/rgrau
+
 # FEEDBACK
 
 Please, send any feedback as an issue, or via mail.
