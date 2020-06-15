@@ -78,6 +78,7 @@ You can check log examples and extract behavior patterns from:
 
 - https://news.ycombinator.com/user?id=rgrau
 - https://www.reddit.com/user/rgrau
+- https://www.goodreads.com/user/show/69378962-raimon-grau
 
 # FEEDBACK
 
