@@ -22,53 +22,68 @@ B.S. in Computer Science \\
 Final thesis on Evolutionary Algorithms graded with Honours. \smallskip \\
 \end{rSection}
 
-\begin{rSection}{Languages}
-Spanish - native\\
-Catalan - native\\
-English - high (written and spoken)\\
-\end{rSection}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Experience}
   \begin{rSubsection}{Kong Inc - \url{https://konghq.com}}{February 2018 - }{Software Engineer, Tech Lead}{Remote}
-  \item Contributing to features for the enterprise version of Kong
-    product. Producing plugins and enterprise features like workspaces
-    & RBAC. Lua
-  \item Design a data collection tool based on a Kong
-    plugin. Offloading traffic data from Kong nodes to an API
-    endpoint. Collecting data, sanitizing and anonymising, and
-    triggering jobs for processing that data for several purposes (ML,
-    logs, docs, discovery). Python+Flask+PG+Celery+Docker.
-  \item Generating a Swagger and OpenAPI specs from real traffic seen
-    from live request/reponse pairs. Python
+  \item Designing features for the enterprise grade customers of
+    Kong. Usually higher traffic and custom flows that do not apply to
+    the opensource product. LuaJIT
+  \item Design and implement a data collection tool from request
+    logs. Sanitizing and anonymising data, triggering jobs for
+    processing that data for several purposes (ML, logs, docs,
+    service discovery). Python, Flask, PG, Celery, Docker.
+  \item Design and implement collector for generating an OpenAPI spec
+    from real traffic seen from live request/reponse
+    pairs. Organizations have running systems they don't know how they
+    work or what they use. Imagine a way to draw the spec from real
+    traffic, with 0 configuration. Python.
+  \item Redesign branching and merging strategy for better integration
+    of teams companywise. Go from a manual cherrypicking model to a
+    consolidated strategy where every developer is able to merge and
+    produce releases of products.
   \item Managing Releases for Enterprise Kong product. Increasing the
-    peace of releases and smoothing the CI/CD pipeline to make easier
+    cadence of releases and smoothing the CI/CD pipeline to make easier
     for newcommers to cut releases, debug packages, etc. Jenkins,
-    docker, and Bash. Lots of bash.
-\end{rSubsection}
+    docker, and Bash. Lots of Bash.
+  %% \item Mentoring developers to increase code quality and
+  %%   testablility.
+  %% \item Aligning Engineering and Product agree on feasible plans of
+  %%   execution.
+  %% \item Help designing the interviewing/hiring process.
+  \item Relevant Books: Turn the Ship Around, Release It!, Peopleware,
+    The Mythical Man-Month, Deep Work, The Art of Postgresql.
+  \end{rSubsection}
+
 
 %------------------------------------------------
 
 \begin{rSubsection}{RavenPack International - \url{https://ravenpack.com}}{June 2016  - August 2017}{Software Engineer, Common Lisp Developer}{Marbella, Spain}
-\item Modernizing a 10 y.o Common Lisp codebase adding a test suite
-  and a build system for it migrating it into continuous
-  integration.
+\item Modernizing a 10 y.o Common Lisp codebase, adding a test suite
+  and a build system for it migrating it into continuous integration.
+\item Refactoring of an old application for performance and
+  maintainability. Halved the number of lines with better performance
+  while improving correctness along the way.
 \item Writting a streamming api for advanced filtering of information
-  (think twitter hose with more advanced filters). Using Common Lisp
+  (think twitter firehose with more advanced filters). Using Common Lisp
   for backend and Nginx+Nchan for the distribution.  Delivering 2.5M
   unique events per day.
 \item Improving a REST API performance by using worker queues when
   possible in different parts of the system. Using both internal
   in-memory queues and AWS SQS. Common Lisp + Python.
+\item Relevant Books: SICP, Object Oriented Reengineering Patterns,
+  The Unix Programming Environment, Patterns of Artificial
+  Intelligence Programming, The Information (Gleick), On Lisp.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{3scale, Inc - \url{http://www.3scale.net/}}{July 2011 - June 2016}{Software Engineer, Team Lead}{Barcelona, Spain}
-\item Maintaining and developing a Ruby on Rails application to manage
-  API authentication and rate limitings. Team lead since 2014.
+\item Maintaining and Developing a +200k lines Ruby on Rails
+  application to manage API authentication and rate limitings. Team
+  lead since 2014.
 \item Develop a code generator to create Nginx Lua configurations from
   rules introduced by the users. Also run nginx on cloud to host these
   configurations. Developed in Ruby, Lua, Nginx and Redis.
@@ -76,16 +91,20 @@ English - high (written and spoken)\\
   reduce the outbound traffic and be able to not get hit by rate
   limits (500rps). Highly concurrent calls and heavy redis usage. Lua,
   Nginx and Redis.
-\item Write an openresty module (lua) to perform the full oauth2
-  authentication process (both 2 and 3 legged).
-\item Work in apitools.com (http://www.apitools.com) project from the
-  beginning until current state. Nginx platform + docker to allow
-  users to proxy all the outbound traffic through apitools and monitor
-  and code middleware to modify the API calls. Did a talk on that in
-  ApiDays Barcelona 2014. Basic usage of Docker.
-\item 3scale itself is an API management company, so I've been dealing
-  with different kinds of API models, authentications,
-  rate\_limitings, documentation models, testing, etc...
+\item Trie based router for api request routing. cost:
+  O(current\_route.length) instead of O(total\_routes.length).
+%% \item Write an openresty module (lua) to perform the full oauth2
+%%   authentication process (both 2 and 3 legged).
+%% \item Work in apitools.com (http://www.apitools.com) project from the
+%%   beginning until current state. Nginx platform + docker to allow
+%%   users to proxy all the outbound traffic through apitools and monitor
+%%   and code middleware to modify the API calls. Did a talk on that in
+%%   ApiDays Barcelona 2014. Basic usage of Docker.
+%% \item 3scale itself is an API management company, so I've been dealing
+%%   with different kinds of API models, authentications,
+%%   rate\_limitings, documentation models, testing, etc...
+\item Relevant Books: SICP, Ruby Metaprogramming, GodelEscherBach,
+  Refactoring.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -98,13 +117,15 @@ English - high (written and spoken)\\
 
 %------------------------------------------------
 
-\begin{rSubsection}{Intelligent Pharma - http://intelligentpharma.com/}{July 2008 - December 2010}{Developer}{Barcelona, Spain}
-\item Developing Artificial intelligence software for drug discovery.
-\item Evolutionary algorithms and Genetic programming.
-\item Development in Perl, C++ and using unix everywhere.
-\item coarse grained paralelization of jobs running in supercomputers
-  (MareNostrum, the 2nd biggest supercomputer at that time)
-\end{rSubsection}
+%% \begin{rSubsection}{Intelligent Pharma - http://intelligentpharma.com/}{July 2008 - December 2010}{Developer}{Barcelona, Spain}
+%% \item Developing Artificial intelligence software for drug discovery.
+%% \item Evolutionary algorithms and Genetic programming.
+%% \item Development in Perl, Java, C++ and using unix everywhere.
+%% \item coarse grained paralelization of jobs running in supercomputers
+%%   (MareNostrum, the 2nd biggest supercomputer at that time)
+%% \item Higher Order Perl, Git Internals, Perl*, Effective Java, Java
+%%   Concurrency in Practice.
+%% \end{rSubsection}
 
 
 %% \begin{rSubsection}{AMES S.A.}{September 2007 - 2003}{Developer}{Barcelona, Spain}
@@ -120,129 +141,103 @@ English - high (written and spoken)\\
 
 \begin{rSection}{Skills}
 
-\item Computer Languages: Ruby, Perl, Lua, Common Lisp, Elisp,
-  Clojure, Smalltalk.  I'm a programming language fanatic so I've
-  dabbled with lots of others (either at university or for fun):
-  C, Rust, Python, Prolog, C++, Java, Scheme, Assembly, Dylan, Io, Factor,
-  Forth, Shen, Erlang, Elixir, Haskell, Oz, and written some very
-  basic Lisp interpreters (see github).
+\item Programming Languages enthusiast. Working experience with Lua,
+  CommonLisp, Ruby, Perl, Python, Bash, a bit of js \& ts. Hobbist
+  experience with Smalltalk, Elisp, Clojure, Elixir, Rust, Go, Nim...
 
-\item Protocols \& APIs: Working experience with HTTP, JSON, XML,
-  REST, SQL, Redis, MongoDB, Redshift, Oracle, Sqlite. Interest in and
-  side projects with lots of others: EventStore, Tarantool, influxdb,
-  Gemstone/S, DataFlex, cocroachdb.
-
-\item Development tools: Deep knowledge of zsh, screen, Vim, Emacs
-  (VERY heavy user for 5 years, written some plugins and contributed
-  code to emacs itself), git, Openresty (nginx+lua). Knowledge of
-  elasticsearch, redis, statsd+Graphite+grafana, AWS (experience with
-  dynamodb, ec2, s3, cloudwatch).
+\item Working experience with REST, Postgres, Docker, sqlite , Redis,
+  MongoDB, Redshift, Oracle, Cassandra, development\&productivity
+  tools like deep knowledge of Shell, Tmux , Vim, Emacs, git,
+  Openresty (nginx+lua), Nix. Experience on elasticsearch, Redis,
+  Statsd + Graphite + Grafana, AWS (experience with dynamodb, ec2, s3,
+  cloudwatch).
 
 \item Passionate learner, and willing to transmit enthusiasm for
   learning technologies and balance them with the current stable
   stack. I'm quite cautious on ``The next big thing'' hypes (there is
   no silver bullet), and like to usually keep things very simple
   (\url{http://suckless.org}). I believe simplicity and uniformity
-  sometimes wins 'the perfect tool for the job' x number-of-jobs.
+  sometimes wins 'the perfect tool for the job' x number-of-jobs
+  approach.
 
 \item Good communication skills and enthusiast teacher \& learner.
 
-\item I used to be into reverse engineering software (1997-2000). Most
-  of it is outdated now, but my approach to problem solving stayed.
+\item In my past life I used to be into reverse engineering
+  software. Most of it is outdated now, but my approach to problem
+  solving stayed.
 
-\item I have a wide variety of interests from reverse engineering to
-  machine learning, compilers, blockchain technologies, etc.
+\item I have a wide variety of interests from Live Programming (Lisp,
+  Smalltalk), machine learning, compilers, blockchain technologies...
 
+\item I love attending small conferences. And try to attend at least 1
+  conference per year as a healthy industry catchup measure.
+
+\item Opensource contributor. Contributions to several projects like
+  emacs, ripgrep, Nix, and several Emacs modes.
 \end{rSection}
 
-\begin{rSection}{Conferences}
 
-  I love attending conferences (preferably not very crowded/mainstream
-  ones). I'm trying to attend at least 1 conference per year as a
-  healthy measure (it's good for the soul).
+%% \begin{rSection}{Projects and Free Software}
 
-%% \item LambdaWorld 2017. (Cadiz, Spain)
-%% \item J on the Beach 2017. (Malaga, Spain)
-%% \item LambdaWorld 2016. (Cadiz, Spain)
-%% \item Euroclojure 2015. (Barcelona, Spain)
-%% \item Polyconf 2014. (Postdam, Poland)
-%% \item ApiDays Barcelona 2014. As a Speaker
-%% \item ApiStrat EUrope 2014. As staff. (Amsterdam)
-%% \item Lua Workshop 2103 (Toulouse, France)
-%% \item European Lisp Symposium 2013 (Madrid, Spain)
-%% \item Fosdem 2013 (Brussels, Belgium)
-%% \item YAPC:EU (perl) 2009. (Lisbon, Portugal)
-%% \item PRACE Supercomputing 2009 (Barcelona, Spain)
+%%   I'm a convinced advocate of Free software, and I have several
+%%   projects opensourced in github (http://www.github.com/kidd), and
+%%   I've contributed to several others. Also I've been involved in
+%%   several open source communities. For example:
 
-\end{rSection}
-
-\begin{rSection}{Projects and Free Software}
-
-  I'm a convinced advocate of Free software, and I have several
-  projects opensourced in github (http://www.github.com/kidd), and
-  I've contributed to several others. Also I've been involved in
-  several open source communities. For example:
-
-\item Member of Barcelona Perl Mongers.
-\item Member of Smalltalk.cat.
-\item Patch published in Vimperator (2008)
-\item Closely following Emacs development. Committed some code. There's
-  much to learn from a 30 year old software project at both code level
-  and management level.
-\item (ex-)member of Vectorlinux crew. I developed a few apps to
-  package apps for vectorlinux and maintaining the repos. Also a
-  migration tool for old packages to new packages, tracking
-  dependencies and recursively building them in preorder.
-\item Following GNU Guix development and IRC.  I package and maintain
-  a few packages (luajit, openresty, xmlstarlet).
-\item \href{https://github.com/areina/helm-dash}{Helm-dash.el}
-  (coauthor/maintainer). Browse documentation offline from within
-  emacs. It reads Dash docsets. (~300 stars)
-\item
-  \href{https://github.com/kidd/erc-image.el}{erc-image.el} /
-  \href{https://github.com/kidd/erc-youtube.el}{erc-youtube.el}
-  (author/maintainer). Visualize images inline in erc irc
-  client. (Included in spacemacs project)
-\item \href{https://github.com/apitools/router.lua}{router.lua}
-  (author/maintainer). Trie-based router in lua using unification
-  instead of simple matching, so that traveling a route is
-  O(route.size).
-\item \href{https://github.com/kidd/eva}{eva.lua}. supersimple and
-  toy-like lisp interpreter in lua
-\item \href{https://github.com/kidd/hascheme}{hascheme}(half assed
-  scheme). not so supersimple but still toy-like scheme interpreter in
-  Perl.
-\item \href{https://github.com/kidd/redditfs.lua}{redditfs.lua}. fuse
-  module written in lua to mount reddit as a file system.
-\item More on github. I've written are some pet projects I wrote in
-  elixir/factor/elisp/Io \ldots
-\item Backend of a geocaching-like app in clojure using ring,
-  compojure, secretary, korma, postgres+GIS and google cloud
-  messaging. Frontend of the app for mobile, using cordova and Google
-  maps api.
-\end{rSection}
+%% \item Member of Barcelona Perl Mongers.
+%% \item Member of Smalltalk.cat.
+%% \item Patch published in Vimperator (2008)
+%% \item Closely following Emacs development. Committed some code. There's
+%%   much to learn from a 30 year old software project at both code level
+%%   and management level.
+%% \item (ex-)member of Vectorlinux crew. I developed a few apps to
+%%   package apps for vectorlinux and maintaining the repos. Also a
+%%   migration tool for old packages to new packages, tracking
+%%   dependencies and recursively building them in preorder.
+%% \item Following GNU Guix development and IRC.  I package and maintain
+%%   a few packages (luajit, openresty, xmlstarlet).
+%% \item \href{https://github.com/areina/helm-dash}{Helm-dash.el}
+%%   (coauthor/maintainer). Browse documentation offline from within
+%%   emacs. It reads Dash docsets. (~300 stars)
+%% \item
+%%   \href{https://github.com/kidd/erc-image.el}{erc-image.el} /
+%%   \href{https://github.com/kidd/erc-youtube.el}{erc-youtube.el}
+%%   (author/maintainer). Visualize images inline in erc irc
+%%   client. (Included in spacemacs project)
+%% \item \href{https://github.com/apitools/router.lua}{router.lua}
+%%   (author/maintainer). Trie-based router in lua using unification
+%%   instead of simple matching, so that traveling a route is
+%%   O(route.size).
+%% \item \href{https://github.com/kidd/eva}{eva.lua}. supersimple and
+%%   toy-like lisp interpreter in lua
+%% \item \href{https://github.com/kidd/hascheme}{hascheme}(half assed
+%%   scheme). not so supersimple but still toy-like scheme interpreter in
+%%   Perl.
+%% \item \href{https://github.com/kidd/redditfs.lua}{redditfs.lua}. fuse
+%%   module written in lua to mount reddit as a file system.
+%% \item More on github. I've written are some pet projects I wrote in
+%%   elixir/factor/elisp/Io \ldots
+%% \item Backend of a geocaching-like app in clojure using ring,
+%%   compojure, secretary, korma, postgres+GIS and google cloud
+%%   messaging. Frontend of the app for mobile, using cordova and Google
+%%   maps api.
+%% \end{rSection}
 
 \begin{rSection}{Personal}
 
-\item I love music (from rock and jazz to funk and psy \ldots).
-\item Reading is another passion of mine. (``Obviously'', my favourite
-  technical books are those that are known by their initials:
-  \begin{enumerate}
-  \item \href{https://mitpress.mit.edu/sicp/}{SICP}
-  \item \href{https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach}{GEB}
-  \item \href{http://norvig.com/paip.html}{PAIP}
-  \item \href{http://hop.perl.plover.com/}{HOP}
-  \item \href{https://www.info.ucl.ac.be/~pvr/book.html}{CTM}
-  \end{enumerate}
-\item I used to play Guitar and bass guitar. (very bad)
-\item I also love good conversations over beers about programming
-  languages.
-
+\item I love music (from rock and jazz to funk and psy \ldots)
+\item Reading is another passion of mine. Check out what I'm up to at
+  \url{https://www.goodreads.com/user/show/69378962-raimon-grau}.
+\item I used to play Guitar and bass guitar. Self taught, not
+  practicing much anymore...
+%% \item I love good conversations over beers about programming
+%%   languages
 \item I blog in \url{http://puntoblogspot.blogspot.com} since
-  2008. Sharing mostly technical stuff.
-\item I like wordplays.
-\item I currently live in \href{https://www.google.es/maps/place/Tenerife/@28.2925426,-17.0803948,9z/data=!3m1!4b1!4m2!3m1!1s0xc4029effe8682ed:0xb01a4bf1c84baf3c}{Tenerife}.
-\item My Cv is on \href{https://github.com/kidd/Me}{Github}
+  2008. Sharing mostly technical stuff. Lately I moved some of the
+  writting to \url{https://raimonster.com}
+\item I currently live in
+  \href{https://www.google.es/maps/place/Tenerife/@28.2925426,-17.0803948,9z/data=!3m1!4b1!4m2!3m1!1s0xc4029effe8682ed:0xb01a4bf1c84baf3c}{Tenerife}.
+\item A complementary CV is on \href{https://github.com/kidd/Me}{https://github.com/kidd/Me}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
