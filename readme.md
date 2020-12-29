@@ -29,7 +29,7 @@
 
 ## Work
 
-APIly working @ Kong.
+[@Metabase](https://www.metabase.com)
 
 ## Hobbies
 
@@ -95,6 +95,12 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
+2020-01-04
+  * m-x cider-jack-in RET
+
+2020-12-18
+  * os.exit()
+
 2020-04-12
   * Release of version 37.
   * Remounted /mnt/tenerife onto /dev/sdTenerife1 (moved places)
