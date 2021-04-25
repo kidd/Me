@@ -4,7 +4,7 @@
 
 # VERSION
 
-	37.0
+	38.0
 	(first version appeared in 1983)
 
 # SYNOPSIS
@@ -95,7 +95,7 @@ Please, send any feedback as an issue, or via mail.
 # Changelog
 
 ```ChangeLog
-2020-01-04
+2021-01-04
   * m-x cider-jack-in RET
 
 2020-12-18
