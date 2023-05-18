@@ -1,0 +1,14 @@
+* Are we chasing a user need? or an implementation need?
+* Cacheability
+* Is it critical path?
+* Can it be layered? how?
+* Deploy small chunks
+* feature flags
+* migrations/rollbacks
+* idempotency. Could it be run in a cronjob?
+* Is the code/feature easy to delete?
+* Is it a problem where a tool can have a HUGE impact?
+   is there an easy way to know if it's one of these problems? (mostly, ask friends)
+
+* naming and structure
+  https://puntoblogspot.blogspot.com/2023/05/naming-notation-and-idioms-conventions.html

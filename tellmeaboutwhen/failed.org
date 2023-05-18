@@ -1,0 +1,10 @@
+* ws
+Not doing the steel thread turns projects into death marches so many
+times.
+
+* superoptimized structures that are not needed in the end
+- Binary Indexed Tree vs just sum-over
+- trie for routes vs a normal regex with caching
+
+For example, caching itself is something that comes later to save your
+ass, and you don't have to hyperoptimize anything below that
