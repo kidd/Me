@@ -4,7 +4,7 @@
 
 # VERSION
 
-	39.0
+	40.0
 	(first release in 1983)
 
 # SYNOPSIS
