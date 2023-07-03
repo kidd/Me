@@ -100,3 +100,10 @@ functional approach: https://github.com/kidd/dupplot#story
 
 - Implementation of the Meta-II MetaCompiler as a single Perl Regex:
   https://github.com/kidd/meta-II/
+
+
+## K
+
+I "learned" K during the AoC'22 by studying the first half of ngn's
+solutions to Advent of Code:
+https://github.com/kidd/arraylangs-index/tree/master/notebooks
