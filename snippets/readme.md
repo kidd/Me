@@ -1,7 +1,9 @@
 Here are some snippets of code I wrote, that I'm keeping to show some
 aspect of how I write code in the small.
 
-## bash
+## bash/zsh
+
+Wrapper for psql to reuse your .psqlrc config but in read-only mode.
 
 ```bash
 ropsql() {
@@ -13,8 +15,15 @@ ropsql() {
 compdef ropsql=psql # zsh only
 ```
 
+My collection of advanced scripting tricks: https://raimonster.com/scripting-field-guide/
+
 ## lua
-instead of using https://github.com/dropbox/zxcvbn to validate a password,
+instead of using https://github.com/dropbox/zxcvbn to validate a password, I wrote this to validate that passwords should have lowercase,uppercase, numbers, symbols, and the minimum lenght varies depending on the amount of different types:
+
+- only one type: nope
+- two(for example upper and lower): 24
+- three: 11
+- all 4 types: 9
 
 ```lua
    local str  = io.read('*l')
@@ -27,8 +36,25 @@ instead of using https://github.com/dropbox/zxcvbn to validate a password,
    print(d,down,up,s,l,l>=defs[d+down+up+s])
 ```
 
+This code is not mine, but it's a good handle to talk about how
+metatables work, and how this can be a memoizing function
+
+```lua
+ function memoize(func)
+   return setmetatable({}, {
+     __index = function(self, k) local v = func(k); self[k] = v; return v end,
+     __call = function(self, k) return self[k] end
+   })
+ end
+```
+
 ## python
-Who needs argparse?
+Who needs argparse? I've seen more bad uses of argparse than good
+ones. I explain here a few alternatives to argparse using plain python
+that surprisingly give (IMO) better ergonomics.
+https://puntoblogspot.blogspot.com/2022/04/parsing-args-with-python-alt-version.html
+. IIRC Perl6 has also this approach that you can tag functions as "cli
+commands", and the runtime will manage the docs and the parsing.
 
 ```python
 def testing(fname):
@@ -41,6 +67,10 @@ if __name__ == "__main__":
 ```
 
 ## clojure
+
+Fancy validation of version strings ":v1.2.3-X1" or ":v1.2.3.4-X1", to
+match only exactly 1 major version down. Fancy as in zipmap + fnil +
+mergewith + juxt + array comparisons (apl-like).
 
 ```clojure
 (defn- version-str->map [v]
@@ -63,6 +93,13 @@ if __name__ == "__main__":
          (<= 44 (:major to)))))
 ```
 
-## perl
+## Perl
+
+Detecting duplicated streaks of lines in text files: https://github.com/kidd/dupplot
+
+Motivation https://github.com/kidd/dupplot/#story
+
+Functional approach to the dispatching of line sanitization and using
+callbacks to do the actual matching.
 
 https://github.com/kidd/dupplot/blob/master/dupplot.pl
