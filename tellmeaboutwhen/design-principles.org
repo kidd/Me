@@ -1,14 +1,52 @@
 * Are we chasing a user need? or an implementation need?
 * Cacheability
+Caching is surprisingly effective in some kinds of problems. If the
+problem is ammenable to caching (no need to implement, but just have
+the intuition in the beginning) it means you probably can save many
+brain cycles on thinking about implementation details/mindfucks.
+* idempotency. Could it be run in a cronjob instead of reactively?
+Related to the previous. If a feature can be implemented in an
+idempotent way, you plan for it, and it usually saves you headaches
+down the line.
 * Is it critical path?
+Speed is crucial vs "best effort, but don't overstress"
 * Can it be layered? how?
+controller->lib->model vs services.  Also, where validations should
+be? can you create different layers of functions, all public but for
+different types of callers, different specificities and with less
+validations the deeper you go?
+
+This allows for so called "[[https://news.ycombinator.com/item?id=32688665][folk interfaces]]" inside code while keeping
+"[[https://caseymuratori.com/blog_0015][semantic compression]]".
+
 * Deploy small chunks
+Nicest deploys are when you can deploy code from internal layers going
+up. Everything behind feature flags, and you can start opening parts
+of the feature (even in raw stages) to your internal users.
+
 * feature flags
+Plan for them. They make a lot of sense.
+
 * migrations/rollbacks
-* idempotency. Could it be run in a cronjob?
+- Will this feature require migrations?
+- Are we adding fields/tables? or we are modifying old data into new formats?
+- Will it require locking tables? are they big?
+- What happens if it all goes wrong during deploy?
+- What happens if it all goes wrong after deploy? can we rollback? or
+  the information is lost?
+
 * Is the code/feature easy to delete?
-* Is it a problem where a tool can have a HUGE impact?
-   is there an easy way to know if it's one of these problems? (mostly, ask friends)
+Fewer entrypoints is usually a good sign of "[[https://web.stanford.edu/~ouster/cgi-bin/cs190-winter18/lecture.php?topic=modularDesign][deep modules]]" (as in John
+Ousterthoot's design philosophy)
+
+* Is it a problem where an already existing tool can have a HUGE impact?
+   Is there an easy way to know if it's one of these problems?
+   (mostly, ask friends). docker-compose, or just plain sql can make
+   very difficult problems trivial. There's no silver bullet though,
+   so I either go for boring technology, or all-in into a tool that
+   will solve 90% of your problem (but be careful, this is also the
+   path to "I'm trapped in a tool that was supposed to solve all my
+   problems")
 
 * naming and structure
   https://puntoblogspot.blogspot.com/2023/05/naming-notation-and-idioms-conventions.html
