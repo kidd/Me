@@ -18,7 +18,7 @@ compdef ropsql=psql # zsh only
 My collection of advanced scripting tricks: https://raimonster.com/scripting-field-guide/
 
 ## lua
-instead of using https://github.com/dropbox/zxcvbn to validate a password, I wrote this to validate that passwords should have lowercase,uppercase, numbers, symbols, and the minimum lenght varies depending on the amount of different types:
+instead of using https://github.com/dropbox/zxcvbn to validate a password, I wrote this to validate that passwords should have lowercase,uppercase, numbers, symbols, and the minimum length varies depending on the amount of different types:
 
 - only one type: nope
 - two(for example upper and lower): 24
@@ -95,11 +95,8 @@ mergewith + juxt + array comparisons (apl-like).
 
 ## Perl
 
-Detecting duplicated streaks of lines in text files: https://github.com/kidd/dupplot
+- Detecting duplicated streaks of lines in text files using Perl, with a
+functional approach: https://github.com/kidd/dupplot#story
 
-Motivation https://github.com/kidd/dupplot/#story
-
-Functional approach to the dispatching of line sanitization and using
-callbacks to do the actual matching.
-
-https://github.com/kidd/dupplot/blob/master/dupplot.pl
+- Implementation of the Meta-II MetaCompiler as a single Perl Regex:
+  https://github.com/kidd/meta-II/
