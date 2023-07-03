@@ -102,6 +102,13 @@ functional approach: https://github.com/kidd/dupplot#story
   https://github.com/kidd/meta-II/
 
 
+# SQL
+
+I do love SQL, but I doubt I have anything that is public & worth
+looking. I've recently done some fun things with
+https://github.com/supabase/supa_audit by diffing the jsonb's in the
+audit records to get a history of the changes.
+
 ## K
 
 I "learned" K during the AoC'22 by studying the first half of ngn's
